@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'css/stijl.css' %}">
+        <title>Agenda</title>
+    </head>
+    <body>
+        <header>
+            <h1>Muziekschool H&J</h1>
+            <p>Luisterend oor voor talent!</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Tarieven</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#" id="blog">Blog</a></li>
+                <li><a href="#" id="motivatie">Motivatie</a></li>
+            </ul>
+        </nav>
+        <div class="agenda">
+            <h2 class="muziekagenda">Muziekagenda</h2>
+            {% block inhoud %}
+            {% endblock %}
+        </div>
+        <footer>
+            <p>&copy; Copyright 2025 Muziekschool H&J<br>
+            (Dit is een oefenopdracht, alle informatie op deze website is fictief.)</p>
+        </footer>
+    </body>
+</html>

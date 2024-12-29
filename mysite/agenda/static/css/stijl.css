@@ -1,0 +1,212 @@
+@media only screen and (min-width: 768px) {
+    .een {
+        width: 30%;
+    }
+
+    .twee {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul li a {  
+        display: block;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .een {
+        width: 94,5%;
+    }
+
+    .twee {
+        width: 94,5%;
+    }
+
+    #saxofoon {
+        width: 350px;
+        height: 200px;
+    }
+
+    #child {
+        width: 350px;
+        height: 400px;
+    }
+
+    iframe {
+        width: 400px;
+    }
+}
+
+body {
+    background-color: #FFFF66;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #CC6600;
+    margin: 0px;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header {
+    background-color: #FF6600;
+    color: #FFFFFF;
+    text-align: center;
+    height: 150px;
+    padding: 32px; 
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #CC6600;
+    line-height: 120%;
+    padding: 20px;
+}
+
+section {
+    padding-top: 10px;
+    display: flex;
+}
+
+.een {   
+    background-color: #FFCC99;
+    padding: 20px;
+}
+
+.twee {   
+    background-color: #FFFFFF;
+    padding: 20px;
+} 
+
+.tekstkleur {
+    color: #CC6600;
+}
+
+.img {
+    width: 250px;
+    height: 150px;
+    padding-left: 15px;
+}
+
+#Hannah {
+    width: 350px;
+    height: 400px;
+    float: right;
+    padding-left: 20px;
+}
+
+#Jesse {
+    width: 350px;
+    height: 400px;
+    float: left;
+    padding-right: 20px;
+}
+
+span {
+    font-weight: lighter;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: outset;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form button {
+    background-color: #CC6600;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF6600;
+}
+
+.bericht {
+    display: none;
+}
+
+#blogbeheer {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 34px;
+}
+
+h2 a {
+    color: #CC6600;
+    margin: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+article{
+    background-color: #FFFFFF;
+    width: 80%;
+    padding: 5px;
+    margin: 20px;
+    border: 2px outset #FFFF66; 
+}
+
+.date {
+    margin: 5px;
+}
+
+.datetime {
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+#omschrijving {
+    margin: 10px;
+}
+
+#prijs {
+    width: fit-content;
+    padding: 5px;
+    margin-left: 20px;
+    border: 2px inset red;
+}
+
+.agenda {
+    background-color: #FFCC99;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.muziekagenda {
+    padding: 15px;
+}
